@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://pbs.twimg.com/media/EMyCziHWkAAiBgQ?format=jpg&name=4096x4096);
+    background-size: cover;
+    
+}
+
+.header{
+    background-color:rgb(3, 3, 3);
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    letter-spacing: 0.1rem;
+    width:90px;
+    padding:5px 10px;
+    text-decoration:none;
+    font-family:Arial;
+    color: #f7f4f4;
+    text-align:center;
+}
+
+ul li a:hover{
+    color: #dbff58;  
+    text-decoration: underline;
+    background: rgba(179, 174, 174, 0.836);
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.menu li{
+    float: right;
+    padding: 35px;
+}
+
+.logo li{
+    float: left;
+    padding: 35px;
+}
+
