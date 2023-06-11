@@ -1,155 +1,112 @@
-/*{
-    padding: 0;
+*{
     margin: 0;
-    text-decoration: none;
-    list-style: none;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
-body{ 
-    font-family: montserrat;
-    left: 0;
-    right: 0;
+.container{
+    width: 100%;
+    height: 8vh;
+    padding: 0;
+    position: relative;
 }
 nav{
-    background: #0082e6 ;
     display: flex;
-    height: 80px;
     width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
 }
-label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+.logo{
+    padding: 5px;
+    width: 120px;
+    cursor: pointer;
 }
 nav ul{
-    float: right;
-    margin-right: 20px;
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
 }
 nav ul li{
     display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    list-style: none;
+    margin: 10px 30px;
 }
 nav ul li a{
-    color:white;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 3px;
+    color: black;
+    text-decoration: none;
+    position: relative;
 }
-/*a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
+nav ul li a::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
 }
-.checkbtn{s
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+nav ul li a:hover::after{
+    width: 50%;
 }
-#check{
-    display: none;
-}*/
-
-/*body{
-    margin: 0px;
-    padding: 0px;
-    
+.slider {
+    overflow: hidden;
 }
-
-
-body{
-    background-image: url(https://pbs.twimg.com/media/EMyCziHWkAAiBgQ?format=jpg&name=4096x4096);
-    background-size: cover;
-    
-}
-
-
-
-.header{
-    position:relative;
-    background-color:rgb(3, 3, 3);
-    height: 80px;
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
     left: 0;
-    margin: 10px;
-    top: 0;
+    animation: 15s slider infinite;
 }
-
-nav ul li{
-    list-style-type: none;
-    display:inline-block;
-    padding: 10px;
-    left: 0;
+.slider figure img{
+    float: left;
+    height: 92vh;
+    width: 20%;
 }
-
-ul li a{
-    letter-spacing: 0.1rem;
-    width:90px;
-    padding:5px 10px;
-    text-decoration:none;
-    font-family:Arial;
-    color: #f7f4f4;
-    text-align:left;
-}
-
-ul li a:hover{
-    color: #867a0c;  
-    text-decoration: underline;
-    background: rgba(179, 174, 174, 0.836);
-    transition: 0.5s;
-    text-transform: capitalize;
-}
-
-.menu li{
-    float: right;
-    padding: 15px;
-}
-
-.logo li{
-    float:left;
-    padding: 15px;
-}
-
-main {
-    padding: 5rem;
-    font-size:large;
-    text-align:center;
-    margin: 1rem   
-}
-
-.title {
-    color:rgb(37, 114, 7);
-    text-transform: capitalize;
-    font-weight: 400;
-    font-style:oblique;
-}
-
-.introduction {
-    line-height: 1.5;
-    width:30%;
-    text-align:justify;
-    text-indent: 20px;
-    float:left;
-      
-}
-.aims{
-    line-height: 1.5;
-    width:20%;
-    text-align:justify;
-    text-indent: 20px;
-    float:inline-start; 
-}
-
-.objectives{
-    line-height: 1.5;
-    width:30%;
-    text-align: justify;
-    text-indent: 20px;
-    float: right;  
-     
+.slider .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}  
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
 }
