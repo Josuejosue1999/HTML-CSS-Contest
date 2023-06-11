@@ -66,56 +66,10 @@ nav ul li a:hover::after{
     height: 92vh;
     width: 20%;
 }
-/*.slider .image-text1 {
-    position: absolute;
-    bottom: 0;
-    left: 1;
-    transform: translateX(0%);
-    color: #ffffff;
-    font-size: 6px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    font-family: "Arial", sans-serif;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-}  
-.slider .image-text2 {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #ffffff;
-    font-size: 6px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    font-family: "Arial", sans-serif;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-}
-.slider .image-text3 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translateX(0%);
-    color: #ffffff;
-    font-size: 12px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    font-family: "Arial", sans-serif;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); 
-}   */ 
 .slider .image-text1 {
-    /* Existing styles */
     position: absolute;
     bottom: 0;
-    left: 0; /* Adjusted value */
+    left: 0;
     color: #ffffff;
     font-size: 7px;
     text-align: center;
@@ -129,10 +83,9 @@ nav ul li a:hover::after{
   }
   
   .slider .image-text2 {
-    /* Existing styles */
     position: absolute;
     bottom: 0;
-    left: 40%; /* Adjusted value */
+    left: 40%;
     color: #ffffff;
     font-size: 7px;
     text-align: center;
@@ -145,12 +98,11 @@ nav ul li a:hover::after{
   }
   
   .slider .image-text3 {
-    /* Existing styles */
     position: absolute;
     bottom: 0;
     right: 0;
     color: #ffffff;
-    font-size: 6px;
+    font-size: 7px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
