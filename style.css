@@ -11,8 +11,6 @@ body{
     
 }
 
-
-
 .header{
     background-color:rgb(3, 3, 3);
     height: 80px;
@@ -53,6 +51,9 @@ ul li a:hover{
     padding: 15px;
 }
 
+.homepage {
+    background-image:url();
+}
 main {
     padding: 5rem;
     font-size:large;
