@@ -1,12 +1,12 @@
-body{
-    background: url('https://rwandaecocompany.com/wp-content/uploads/2022/04/lake-kivu.jpg');
-    background-size: cover;
-    font-family: 'Courier New', Courier, monospace;
-}  
-
 *{
     box-sizing: border-box;
 }
+
+body{
+    background: url('https://media.istockphoto.com/id/1212342896/vector/abstract-hexagon-wallpaper-white-background-3d-vector-illustration.jpg?s=612x612&w=0&k=20&c=ynRzXUZ4_Ga3Y7joKBABdXUQI4xBvrdHJnYueJWEiw8=');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}  
 
 nav{
     display: flex;
@@ -63,12 +63,24 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
 }
 
-h2{
+h5{
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
     color:blue;
+}
+
+h6{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h7{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
 }
